@@ -13,7 +13,7 @@ using Random
 const βc = log(1 + √2)/2
 const beta_crit = βc
 
-include("ParallelWolffQueue.jl" ) # parallel Wolff algorithm # ParallelIsingWolff
+include("ParallelWolff.jl" ) # parallel Wolff algorithm # ParallelIsingWolff
 end
 
 function energy(lattice::AbstractArray{Int64})
